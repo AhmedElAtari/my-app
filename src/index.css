@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+#mapContainer {
+  height:100%;
+  width:100%;
+}
+
+#map {
+  height: 100%
+}
+
+.mapPane2 {
+  height: 100% !important;
+}
+
+.splitter-layout > .layout-splitter{
+  width : 10px;
+}
+
+
+.left-divider {
+  width: 20px;
+  height: 30px;
+  background-color: #ff0000;
+  position: absolute;
+  top: calc(50% - 12px);
+  z-index: 40;
+}
+
+
+
+.right-divider {
+  width: 20px;
+  height: 30px;
+  background-color: #ff0000;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 12px);
+  z-index: 40;
+}
+
+
+.bottom-divider {
+  width: 30px;
+  height: 20px;
+  background-color: #ff0000;
+  position: absolute;
+  bottom: 0;
+  right: calc(50% - 12px);
+  z-index: 40;
+}
+
+
+.top-divider {
+  width: 30px;
+  height: 20px;
+  background-color: #ff0000;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 12px);
+  z-index: 40;
+}
